@@ -1,0 +1,10 @@
+.principal__banner-texto {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e9d9d9;
+}
+
+.principal__banner-texto span {
+  color: #ff647e;
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.galeria__opcao-produto{
+  height: 10.8rem;
+  width: 11rem;
+  border: 1px solid var(--cor-destaque);
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.524);
+}

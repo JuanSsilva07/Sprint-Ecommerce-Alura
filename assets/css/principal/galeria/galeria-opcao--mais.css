@@ -1,0 +1,9 @@
+.galeria__opcao-mais{
+  color: var(--cor-destaque);
+  text-decoration: none;
+  transition: all 400ms ease-in-out;
+}
+
+.galeria__opcao-mais:hover{
+  text-decoration: underline;
+}

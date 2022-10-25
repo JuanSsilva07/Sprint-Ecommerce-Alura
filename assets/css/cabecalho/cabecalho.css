@@ -1,0 +1,19 @@
+@import url(cabacalho-icon.css);
+@import url(cabecalho-icon-texto.css);
+@import url(cabecalho-pesquisa.css);
+@import url(cabecalho-botao.css);
+@import url(cabecalho-pesquisa--input.css);
+@import url(cabecalho-pesquisa--icon.css);
+
+.cabecalho {
+  display: flex;
+  width: 85vw;
+  height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cabecalho .cabecalho__botao {
+  margin: 0;
+}

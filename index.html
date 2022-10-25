@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Aplicando o normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Adicionando fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Aplicando CSS -->
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/principal/principal.css">
+    <link rel="stylesheet" href="./assets/css/principal/galeria/galeria.css">
+  <title>AluraSweet</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__icon">
+      <a href="/" class="cabecalho__icon--link"><img src="assets/icons/i-sweet.png" alt="Icone de doce" class="cabecalho__icon--img"></a>
+      <p class="cabecalho__icon--texto"><span class="cabecalho__icon--textoDestaque">Alura</span>Sweet</p>
+      <div class="cabecalho__pesquisa">
+        <input type="text" class="cabecalho__pesquisa--input" placeholder="O que deseja encontrar?">
+        <img src="assets/icons/i-search.png" alt="Icone de pesquisa" class="cabecalho__pesquisa--icon">
+      </div>
+    </div>
+      <button class="cabecalho__botao">Login</button>
+  </header>
+  <main class="principal">
+    <section class="principal__banner">
+      <div class="principal__banner-imagem">
+      <div class="principal__banner-promocao">
+        <h2 class="principal__banner-titulo">Dezembro Promocional</h2>
+        <p class="principal__banner-texto">Produtos selecionados com <span>40% de desconto.</span></p>
+        <button class="principal__banner-botao">Ver Doces</button>
+      </div>
+    </section>
+    <section class="galeria">
+      <div class="galeria__secao">
+        <h3 class="galeria__secao-titulo">Chocolates</h3>
+        <p class="galeria__secao-mais">Ver tudo &rarr;</p>
+      </div>
+      <ul class="galeria__opcao">
+        <li class="galeria__opcao-item">
+          <img class="galeria__opcao-produto" src="https://img.elo7.com.br/product/zoom/3A08683/barra-de-chocolate-recheada-chocolate-recheado.jpg" alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+        <li>
+          <img class="galeria__opcao-produto"  src="https://img.elo7.com.br/product/zoom/3E3E24D/barra-de-chocolate-recheada-dourada-presente-de-natal-chocolate.jpg" alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+        <li>
+          <img class="galeria__opcao-produto"  src="https://img.elo7.com.br/product/zoom/3A086E4/barra-de-chocolate-recheada-chocolates.jpg" alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+        <li>
+          <img class="galeria__opcao-produto"  src="https://img.elo7.com.br/product/zoom/37B76FA/barra-em-chocolate-recheada-com-doce-de-leite-ovo-de-pascoa-de-colher.jpg" alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+        <li>
+          <img class="galeria__opcao-produto"  src="https://assets.betalabs.net/production/bakeawish/item-images/b1b89b37ec714f0f75bfd9bd1411379e.png" alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+        <li>
+          <img class="galeria__opcao-produto"  src="https://img.elo7.com.br/product/zoom/43F3937/barra-de-chocolate-recheada-com-ganache-tradicional-200g-barra-recheada.jpg  " alt="">
+          <p class="galeria__opcao-titulo">Produto XYZ</p>
+          <span class="galeria__opcao-preco">&#36; 60,00</span>
+          <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
+        </li>
+      </ul>
+    </section> 
+  </main>
+</body>
+</html>

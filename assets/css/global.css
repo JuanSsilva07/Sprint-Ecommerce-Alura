@@ -1,0 +1,10 @@
+:root{
+  --cor-destaque: #C44D61;
+  --cor-fundo: #77253F;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}

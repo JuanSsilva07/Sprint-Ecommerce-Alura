@@ -1,0 +1,8 @@
+.principal__banner-imagem{
+  width: 100%;
+  height: 22rem;
+  position: absolute;
+  object-fit: cover;
+  background: url("../../../images/s-banner.jpg") no-repeat;
+  box-shadow: 0 0 400px rgba(0,0,0,0.9) inset;
+}

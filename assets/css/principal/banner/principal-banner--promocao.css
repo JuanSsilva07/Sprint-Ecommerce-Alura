@@ -1,0 +1,12 @@
+.principal__banner-promocao{
+  color: var(--cor-destaque);
+  width: 85vw;
+  height: 70%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  left: 120px;
+  top: 30px;
+}

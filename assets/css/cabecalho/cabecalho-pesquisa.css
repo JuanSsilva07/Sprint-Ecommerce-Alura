@@ -1,0 +1,9 @@
+.cabecalho__pesquisa{
+  align-items: center;
+  background-color: #bb3f6766;
+  display: flex;
+  justify-content: space-between;
+  width: 24.5rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+}

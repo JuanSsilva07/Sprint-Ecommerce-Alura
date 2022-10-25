@@ -1,0 +1,18 @@
+.cabecalho__pesquisa--input{
+  background-color: transparent;
+  border: none;
+  color: #f1f1f1;
+  font-weight: 400;
+  width: 23.5rem;
+  height: 2.5rem;
+  margin-left: 5px ;
+}
+
+.cabecalho__pesquisa--input:focus{
+  box-shadow: 0;
+  outline: 0;
+}
+
+.cabecalho__pesquisa--input::placeholder{
+  color: white;
+}

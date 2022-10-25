@@ -1,0 +1,11 @@
+.cabecalho__icon--texto{
+  font-size: 1.3rem;
+  letter-spacing: .7px;
+  font-weight: 600;
+  margin-right: 2rem;
+  user-select: none;
+}
+
+.cabecalho__icon--textoDestaque{
+  color: var(--cor-destaque);
+}
