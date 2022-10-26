@@ -1,0 +1,17 @@
+.rodape__sitemap-opcao{
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.rodape__sitemap-opcao a{
+  color: #E9C2A2;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 100ms ease-in;
+}
+
+.rodape__sitemap-opcao a:hover{
+  opacity: .5;
+  text-decoration: underline;
+}

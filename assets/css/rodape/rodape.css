@@ -1,0 +1,14 @@
+@import url(informacoes/rodape-informacoes.css);
+@import url(./informacoes/rodape-conteudo.css);
+@import url(./informacoes/rodape-contato.css);
+@import url(./informacoes/rodape-contato--form.css);
+@import url(./informacoes/rodape-logo.css);
+@import url(./informacoes/rodape-sitemap.css);
+@import url(./informacoes/rodape-fim.css);
+
+.rodape{
+  background-color: #c44d61ab;
+  height: 29.3rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}

@@ -1,0 +1,9 @@
+.rodape__fim{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 6.3rem;
+  text-align: center;
+  margin-top: 5rem;
+}

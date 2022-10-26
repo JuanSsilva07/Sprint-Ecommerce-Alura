@@ -1,0 +1,6 @@
+.rodape__informacoes{
+  display: flex;
+  justify-content: space-around;
+  width: 40rem;
+  margin-top: 5rem;
+}
