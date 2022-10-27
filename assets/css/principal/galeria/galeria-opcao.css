@@ -1,6 +1,7 @@
 .galeria__opcao{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
 }
