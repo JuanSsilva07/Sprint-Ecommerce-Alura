@@ -4,4 +4,5 @@
 @import url(./banner/principal-banner--titulo.css);
 @import url(./banner/principal-banner--texto.css);
 @import url(./banner/principal-banner--botao.css);
-
+@import url(./login/principal-login.css);
+@import url(./adicionarProduto/principal-cadastro.css);

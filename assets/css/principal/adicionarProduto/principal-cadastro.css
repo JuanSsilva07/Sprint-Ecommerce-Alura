@@ -1,0 +1,59 @@
+.principal__cadastro-secao {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.principal__cadastro-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.principal__cadastro-titulo {
+  font-size: 2rem;
+  color: var(--cor-destaque);
+}
+
+.cadastro {
+  width: 34.9rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4b2c2;
+  color: #6c6c6c;
+}
+
+.cadastro__descricao {
+  width: 35.05rem;
+  height: 5.125rem;
+  resize: none;
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4b2c2;
+  color: #6c6c6c;
+}
+
+.cadastro__botao {
+  width: 35.4rem;
+  height: 3.1rem;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  background-color: var(--cor-destaque);
+  color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.cadastro__botao:hover {
+  opacity: 0.7;
+}
+
+.cadastro, .cadastro__descricao{
+  outline: none;
+}
