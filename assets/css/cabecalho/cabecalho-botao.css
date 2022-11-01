@@ -1,13 +1,16 @@
-.cabecalho__botao{
+.cabecalho__botao {
   background-color: transparent;
   border: 1px solid var(--cor-destaque);
-  color: var(--cor-destaque);
   cursor: pointer;
   height: 3.1rem;
   transition: 200ms ease-in-out;
   width: 11.3rem;
 }
 
-.cabecalho__botao:hover{
-  opacity: .7;
+.cabecalho__botao a {
+  color: var(--cor-destaque);
+}
+
+.cabecalho__botao:hover {
+  opacity: 0.7;
 }

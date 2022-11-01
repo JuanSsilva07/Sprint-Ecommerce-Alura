@@ -1,11 +1,15 @@
 .principal__banner-botao{
   background-color: var(--cor-destaque);
-  color: #e9d9d9;
+
   border: none;
   cursor: pointer;
   height: 3.1rem;
   transition: all 350ms ease-in-out ;
   width: 11.3rem;
+}
+
+.principal__banner-botao a{
+  color: #e9d9d9;
 }
 
 .principal__banner-botao:hover{

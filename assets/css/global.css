@@ -3,6 +3,10 @@
   --cor-fundo: #77253F;
 }
 
+*{
+  text-decoration: none;
+}
+
 body{
   font-family: 'Raleway', sans-serif;
   margin-left: auto;
