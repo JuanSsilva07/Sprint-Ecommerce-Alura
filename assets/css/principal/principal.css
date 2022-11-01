@@ -6,3 +6,108 @@
 @import url(./banner/principal-banner--botao.css);
 @import url(./login/principal-login.css);
 @import url(./adicionarProduto/principal-cadastro.css);
+
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    width: 100%;
+  }
+  .cabecalho__botao {
+    margin-right: 1.5rem;
+  }
+
+  .cabecalho__pesquisa {
+    display: none;
+  }
+  .principal__banner {
+    width: 100%;
+  }
+  .principal__banner-promocao {
+    width: 70% !important;
+    left: 20px !important;
+  }
+  .rodape__informacoes {
+    flex-direction: column;
+  }
+  .principal__cadastro-secao {
+    margin: 0 100px;
+  }
+  .principal__cadastro-titulo {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cabecalho {
+    width: 100%;
+  }
+  .cabecalho__botao {
+    margin-right: 1.5rem;
+  }
+
+  .cabecalho__pesquisa {
+    display: none;
+  }
+  .principal__banner {
+    width: 100%;
+  }
+  .principal__banner-promocao {
+    width: 30% !important;
+    margin: 0;
+    left: 10px !important;
+  }
+
+  .galeria__opcao-produto {
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+
+  .rodape__informacoes {
+    width: 18rem !important;
+  }
+
+  .rodape__sitemap {
+    display: none;
+  }
+  .rodape__conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape__logo {
+    width: 18rem !important;
+  }
+
+  .rodape__contato {
+    width: 18rem !important;
+    margin: 0 !important;
+  }
+
+  .login__nome,
+  .login__senha {
+    width: 20rem !important;
+  }
+  .cadastro,
+  .cadastro__descricao,
+  .cadastro__botao {
+    width: 20rem !important;
+  }
+  .principal__cadastro-secao {
+    margin: 0 50px;
+  }
+  .principal__cadastro-titulo {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cabecalho__icon--img {
+    display: none;
+  }
+  .principal__cadastro-secao {
+    margin: 0 30px;
+  }
+  .cadastro,
+  .cadastro__descricao,
+  .cadastro__botao {
+    width: 15rem !important;
+  }
+}
