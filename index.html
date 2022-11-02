@@ -195,9 +195,9 @@
       <section class="rodape__contato">
             <p class="rodape__contato-titulo">Fale Conosco</p>
             <form action="" class="rodape__contato-form">
-                <input type="text" placeholder="Nome" class="contato__nome" id="txtName">
-                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem"></textarea>
-                <button class="principal__banner-botao" type="button" id="btnSubscribe">
+                <input type="text" placeholder="Nome" class="contato__nome" id="txtName" maxlength="40" title="Máximo de 40 caracteres." required>
+                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" required title="Não é possível enviar mensagens vazias."></textarea>
+                <button class="principal__banner-botao" id="btnSubscribe">
                   Enviar mensagem
                 </button>
             </form>

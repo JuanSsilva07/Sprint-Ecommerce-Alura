@@ -78,67 +78,39 @@
         </form>
       </section>
     </main>
-    <footer class="rodape">
-      <section class="rodape__conteudo">
-        <section class="rodape__informacoes">
-          <div class="rodape__logo">
-            <a href="/" class="cabecalho__icon--link"
-              ><img
-                src="../icons/i-sweet.png"
-                alt="Icone de doce"
-                class="cabecalho__icon--img"
-            /></a>
-            <p class="cabecalho__icon--texto">
-              <span class="cabecalho__icon--textoDestaque">Alura</span>Sweet
-            </p>
-          </div>
-          <div class="rodape__sitemap">
-            <ul>
-              <li class="rodape__sitemap-opcao">
-                <a href="">Quem somos nós</a>
-              </li>
-              <li class="rodape__sitemap-opcao">
-                <a href="">Política de privacidade</a>
-              </li>
-              <li class="rodape__sitemap-opcao">
-                <a href="">Programa fidelidade</a>
-              </li>
-              <li class="rodape__sitemap-opcao"><a href="">Nossas lojas</a></li>
-              <li class="rodape__sitemap-opcao">
-                <a href="">Quero ser franqueado</a>
-              </li>
-              <li class="rodape__sitemap-opcao"><a href="">Anuncie aqui</a></li>
-            </ul>
-          </div>
-        </section>
-        <section class="rodape__contato">
-          <p class="rodape__contato-titulo">Fale Conosco</p>
-          <form action="" class="rodape__contato-form">
-            <input
-              type="text"
-              placeholder="Nome"
-              class="contato__nome"
-              id="txtName"
-            />
-            <textarea
-              placeholder="Mensagem"
-              class="contato__mensagem"
-              id="txtMensagem"
-            ></textarea>
-            <button
-              class="principal__banner-botao"
-              type="button"
-              id="btnSubscribe"
-            >
-              Enviar mensagem
-            </button>
-          </form>
-        </section>
+  <footer class="rodape">
+    <section class="rodape__conteudo">
+      <section class="rodape__informacoes">
+        <div class="rodape__logo">
+        <a href="/" class="cabecalho__icon--link"><img src="assets/icons/i-sweet.png" alt="Icone de doce" class="cabecalho__icon--img"></a>
+        <p class="cabecalho__icon--texto"><span class="cabecalho__icon--textoDestaque">Alura</span>Sweet</p>
+        </div>
+        <div class="rodape__sitemap">
+          <ul>
+            <li class="rodape__sitemap-opcao"><a href="">Quem somos nós</a></li>
+            <li class="rodape__sitemap-opcao"><a href="">Política de privacidade</a></li>
+            <li class="rodape__sitemap-opcao"><a href="">Programa fidelidade</a></li>
+            <li class="rodape__sitemap-opcao"><a href="">Nossas lojas</a></li>
+            <li class="rodape__sitemap-opcao"><a href="">Quero ser franqueado</a></li>
+            <li class="rodape__sitemap-opcao"><a href="">Anuncie aqui</a></li>
+          </ul>
+        </div>
       </section>
-      <section class="rodape__fim">
-        <p>Desenvolvido por Juan Soares</p>
-        <span>2022</span>
+      <section class="rodape__contato">
+            <p class="rodape__contato-titulo">Fale Conosco</p>
+            <form action="" class="rodape__contato-form">
+                <input type="text" placeholder="Nome" class="contato__nome" id="txtName" maxlength="40" title="Máximo de 40 caracteres." required>
+                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" required title="Não é possível enviar mensagens vazias."></textarea>
+                <button class="principal__banner-botao" id="btnSubscribe">
+                  Enviar mensagem
+                </button>
+            </form>
       </section>
-    </footer>
+    </section>
+    <section class="rodape__fim">
+      <p>Desenvolvido por Juan Soares</p>
+      <span>2022</span>
+    </section>
+  </footer>
   </body>
 </html>
