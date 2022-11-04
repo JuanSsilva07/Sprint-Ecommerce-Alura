@@ -47,27 +47,32 @@
             type="text"
             placeholder="URL da imagem"
             class="cadastro__url cadastro"
-            id="txtName"
+            id="txtName" 
+            required
           />
           <input
             type="text"
             placeholder="Categoria"
-            class="cadastro__senha cadastro"
-            id="txtName"
+            class="cadastro__categoria cadastro"
+            id="txtName" 
+            required
           />
           <input
             type="text"
             placeholder="Nome do produto"
-            class="cadastro__senha cadastro"
+            class="cadastro__nomeProduto cadastro"
             id="txtName"
+            maxlength="20" 
+            required
           />
           <input
-            type="text"
+            type="number"
             placeholder="Preço do produto"
-            class="cadastro__senha cadastro"
+            class="cadastro__precoProduto cadastro"
             id="txtName"
+            required
           />
-          <textarea placeholder="Descrição do produto" class="cadastro__descricao" id="txtMensagem"></textarea>          
+          <textarea placeholder="Descrição do produto" class="cadastro__descricao" id="txtMensagem" maxlength="150" required></textarea>          
           <button
             class="cadastro__botao"
             type="button"
@@ -98,9 +103,9 @@
       </section>
       <section class="rodape__contato">
             <p class="rodape__contato-titulo">Fale Conosco</p>
-            <form action="" class="rodape__contato-form">
+            <form id="formEnvio" class="rodape__contato-form">
                 <input type="text" placeholder="Nome" class="contato__nome" id="txtName" maxlength="40" title="Máximo de 40 caracteres." required>
-                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" required title="Não é possível enviar mensagens vazias."></textarea>
+                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" maxlength="120" title="Não é possível enviar mensagens vazias." required></textarea>
                 <button class="principal__banner-botao" id="btnSubscribe">
                   Enviar mensagem
                 </button>
@@ -112,5 +117,7 @@
       <span>2022</span>
     </section>
   </footer>
+
+  <script src="./assets/js/main.js"></script>
   </body>
 </html>

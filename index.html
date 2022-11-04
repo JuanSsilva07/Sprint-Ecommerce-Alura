@@ -91,7 +91,7 @@
       </div>
       <ul class="galeria__opcao">
         <li class="galeria__opcao-item">
-          <img class="galeria__opcao-produto" src="https://o.imgac.net/receita/torta-de-treloso-com-doce-de-leite-e-coco-34995.jpg" alt="">
+          <img class="galeria__opcao-produto" src="https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/05/13/1914384376-torta-cremosa-chocolate-amendoim.jpg" alt="">
           <p class="galeria__opcao-titulo">Produto XYZ</p>
           <span class="galeria__opcao-preco">&#36; 60,00</span>
           <p ><a class="galeria__opcao-mais" href="">Ver Produto</a></p>
@@ -194,9 +194,9 @@
       </section>
       <section class="rodape__contato">
             <p class="rodape__contato-titulo">Fale Conosco</p>
-            <form action="" class="rodape__contato-form">
+            <form id="formEnvio" class="rodape__contato-form">
                 <input type="text" placeholder="Nome" class="contato__nome" id="txtName" maxlength="40" title="Máximo de 40 caracteres." required>
-                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" required title="Não é possível enviar mensagens vazias."></textarea>
+                <textarea placeholder="Mensagem" class="contato__mensagem" id="txtMensagem" maxlength="120" title="Não é possível enviar mensagens vazias." required></textarea>
                 <button class="principal__banner-botao" id="btnSubscribe">
                   Enviar mensagem
                 </button>
@@ -208,5 +208,7 @@
       <span>2022</span>
     </section>
   </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
