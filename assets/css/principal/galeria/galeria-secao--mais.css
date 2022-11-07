@@ -7,6 +7,10 @@
   margin-top: 2.5rem;
 }
 
+.galeria__secao-mais > a{
+    color: var(--cor-destaque);
+}
+
 .galeria__secao-mais:hover{
   opacity: .7;
 }

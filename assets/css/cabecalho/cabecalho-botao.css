@@ -10,6 +10,9 @@
 .cabecalho__botao a {
   color: var(--cor-destaque);
 }
+.admnistrador {
+    color: var(--cor-destaque);
+}
 
 .cabecalho__botao:hover {
   opacity: 0.7;
