@@ -47,32 +47,32 @@
             type="text"
             placeholder="URL da imagem"
             class="cadastro__url cadastro"
-            id="txtName" 
+            id="txtURLProduto" 
             required
           />
           <input
             type="text"
             placeholder="Categoria"
             class="cadastro__categoria cadastro"
-            id="txtName" 
+            id="txtCategoriaProduto" 
             required
           />
           <input
             type="text"
             placeholder="Nome do produto"
             class="cadastro__nomeProduto cadastro"
-            id="txtName"
+            id="txtNomeProduto"
             maxlength="20" 
             required
           />
           <input
-            type="number"
+            type="text"
             placeholder="Preço do produto"
             class="cadastro__precoProduto cadastro"
-            id="txtName"
+            id="txtPreco"
             required
           />
-          <textarea placeholder="Descrição do produto" class="cadastro__descricao" id="txtMensagem" maxlength="150" required></textarea>          
+          <textarea placeholder="Descrição do produto" class="cadastro__descricao" id="txt" maxlength="150" required></textarea>          
           <button
             class="cadastro__botao"
             type="button"
@@ -118,6 +118,7 @@
     </section>
   </footer>
 
-  <script src="./assets/js/main.js"></script>
+  <script type="module" src="../js/main.js"></script>
+  <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
   </body>
 </html>
