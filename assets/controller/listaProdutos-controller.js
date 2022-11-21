@@ -10,10 +10,10 @@ const criaNovaLinha = (url, nome, preco, id) => {
                 src="${url}"
                 alt=""
               />
-              <div class="testando">
-                <li><button><a href="../pages/editar-produto.html?id=${id}"><img src="../icons/lapis.png" class="icon" alt="" /></a></button></li>
+              <section class="testando-botoes">
+                <li><button class="botao-simples"><a href="../pages/editar-produto.html?id=${id}"><img src="../icons/lapis.png" class="icon" alt="" /></a></button></li>
                 <li><button class="botao-simples botao-simples--excluir" type="button"><img src="../icons/lixeira.png" class="icon botao-simples botao-simples--excluir" alt="" id="btnDelete"/></button><li>
-              </div>
+              </section>
             </div>
             <p class="galeria__opcao-titulo">${nome}</p>
             <span class="galeria__opcao-preco">&#36; ${preco}</span>

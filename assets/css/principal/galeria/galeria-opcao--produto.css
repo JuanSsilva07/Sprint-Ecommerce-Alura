@@ -6,6 +6,10 @@
   box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.524);
 }
 
-.produto-page{
-  position: fixed;
+.testando-botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 1.2rem;
+  margin-top: .5rem;
 }

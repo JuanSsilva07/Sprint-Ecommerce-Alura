@@ -17,19 +17,9 @@ body {
   color: #f1f1f1;
 }
 
-.teste {
-  position: relative;
-}
-
-.testando {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  transform: translateY(-900%) translateX(235%);
-}
-
 .icon {
   cursor: pointer;
+  height: 1rem;
   margin: 0 5px;
   transition: all 200ms ease-in-out;
 }
